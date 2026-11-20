@@ -9,11 +9,11 @@ The configuration distinguishes website entrances from internal navigation and p
 
 ## Installation
 1. Download the GTM container JSON file from this repository.
-2. Open your Google Tag Manager web container.
-3. Navigate to Admin → Import Container.
+2. Open your **Google Tag Manager** web container.
+3. Navigate to **Admin → Import Container**.
 4. Select the downloaded JSON file.
 5. Choose an existing or new workspace.
-6. Select Merge to preserve your existing container configuration.
+6. Select **Merge** to preserve your existing container configuration.
 7. Review the proposed changes and confirm the import.
 
 **Important:** Before publishing the container, configure the variables described below. The imported configuration contains placeholder values and will not send events to your sGTM server until the endpoint is configured.
@@ -36,7 +36,7 @@ Example:
 A configured domain also covers its subdomains.
 
 ### Server-side GTM endpoint
-Replace https://sgtm.example.com in `cons-sgtmEndpoint` with your actual server endpoint. Check any configured fallback values in the variable's Format Value settings as well.
+Replace https://sgtm.example.com in `cons-sgtmEndpoint` with your actual server endpoint. Check any configured fallback values in the variable's *Format Value* settings as well.
 
 The included Stape Data Tag sends requests to the /data path and requires a compatible Stape Data Client in your server-side GTM container.
 
