@@ -2,7 +2,7 @@
 
 You can find an article about this configuration **[here](https://www.measuredesign.cz/en/blog/)** on our blog.
 
-# pub__Entrance_event
+# Entrance_event
 Reusable Google Tag Manager configuration for detecting website entrances, identifying traffic sources (source, medium, campaign), and sending entrance events to server-side GTM.
 
 The configuration distinguishes website entrances from internal navigation and page reloads. It uses URL parameters and referrer information to classify incoming traffic and sends the resulting anonymous_entrance event using the Stape Data Tag.
