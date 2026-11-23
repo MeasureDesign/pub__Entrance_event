@@ -1,6 +1,6 @@
 ![MeasureDesign logo](imgs/md_logo.png)
 
-You can find an article about this configuration **[here](https://www.measuredesign.cz/en/blog/)** on our blog.
+You can find an article about this configuration **[here](https://www.measuredesign.cz/en/blog/taking-control-of-traffic-sources-a-custom-gtm-solution)** on our blog.
 
 # Entrance_event
 Reusable Google Tag Manager configuration for detecting website entrances, identifying traffic sources (source, medium, campaign), and sending entrance events to server-side GTM.
